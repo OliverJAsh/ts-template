@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "strict": true,
+        "noImplicitReturns": true,
+        "sourceMap": true,
+        "outDir": "./target/",
+        "rootDir": "./src/",
+        "plugins": [{ "name": "tslint-language-service" }]
+    },
+    "files": ["./src/index.ts"]
+}

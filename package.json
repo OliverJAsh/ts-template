@@ -1,0 +1,19 @@
+{
+  "name": "change-me",
+  "private": true,
+  "scripts": {
+    "lint": "tslint --project ./tsconfig.json",
+    "compile": "rm -rf ./target/ && tsc",
+    "start": "npm run compile && npm run lint && node --require source-map-support/register ./target/index.js",
+    "format": "prettier --write './**/*.{ts,tsx,js,json,md}' '.prettierrc'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^1.14.2",
+    "source-map-support": "^0.5.9",
+    "tslint": "^5.11.0",
+    "tslint-language-service": "^0.9.9",
+    "tslint-no-unused": "^0.2.0-alpha.1",
+    "typescript": "^3.0.3"
+  }
+}
