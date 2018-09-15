@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "strict": true,
+        "noImplicitReturns": true,
+        "sourceMap": true,
+        "outDir": "./target/",
+        "rootDir": "./src/",
+        "plugins": [{ "name": "tslint-language-service" }],
+        "jsx": "react"
+    },
+    "files": ["./src/webpack.config.ts"]
+}
