@@ -13,8 +13,3 @@ max_line_length = 100
 
 [package.json]
 indent_size = 2
-
-# Git is sensitive to whitespace in diff files
-# https://stackoverflow.com/questions/50258565/git-editing-hunks-fails-when-file-has-other-hunks/50275053#50275053
-[*.diff]
-trim_trailing_whitespace = false
