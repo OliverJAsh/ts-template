@@ -1,14 +1,25 @@
 {
   "name": "change-me",
-  "private": true,
+  "main": "./target/index.js",
+  "typings": "./target/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/change-me/change-me.git"
+  },
+  "version": "0.0.0",
   "scripts": {
     "lint": "tslint --project ./tsconfig.json",
     "compile": "rm -rf ./target/ && tsc",
-    "start": "npm run compile && npm run lint && node --require source-map-support/register ./target/index.js",
-    "format": "prettier --write './**/*.{ts,tsx,js,json,md}' '.prettierrc'"
+    "test": "npm run compile && node --require source-map-support/register ./target/tests.js",
+    "format": "prettier --write './**/*.{ts,tsx,js,json,md}' '.prettierrc'",
+    "prepublishOnly": "npm run test && npm run lint && npm run compile"
   },
+  "files": [
+    "target"
+  ],
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^10.12.15",
     "prettier": "^1.15.3",
     "source-map-support": "^0.5.9",
     "tslint": "^5.11.0",
