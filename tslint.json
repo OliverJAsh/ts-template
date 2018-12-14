@@ -8,12 +8,7 @@
         "no-any": true,
         "no-unsafe-any": true,
         "strict-boolean-expressions": true,
-        "ordered-imports": [
-            true,
-            {
-                "grouped-imports": true
-            }
-        ],
+        "ordered-imports": [true],
         "no-inferrable-types": [true, "ignore-properties"],
         "no-switch-case-fall-through": true,
         "arrow-return-shorthand": [true, "multiline"],
