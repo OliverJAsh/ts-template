@@ -19,7 +19,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^10.12.15",
+    "@types/node": "^12.0.10",
     "prettier": "^1.18.2",
     "source-map-support": "^0.5.12",
     "tslint": "^5.18.0",
