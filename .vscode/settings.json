@@ -32,5 +32,9 @@
         "editor.formatOnSave": true
     },
 
+    "files.associations": {
+        "tslint.json": "jsonc"
+    },
+
     "typescript.tsdk": "node_modules/typescript/lib"
 }
