@@ -10,10 +10,16 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@types/copy-webpack-plugin": "^5.0.0",
+    "@types/webpack": "^4.39.7",
+    "copy-webpack-plugin": "^5.0.4",
     "prettier": "^1.18.2",
+    "ts-loader": "^6.2.1",
     "tslint": "^5.18.0",
     "tslint-language-service": "^0.9.9",
     "tslint-no-unused": "^0.2.0-alpha.1",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }

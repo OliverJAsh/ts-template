@@ -8,7 +8,7 @@ const ROOT_PATH = pathHelpers.resolve(__dirname, '..', '..');
 const TARGET_PATH = pathHelpers.join(ROOT_PATH, './target/');
 const SRC_PATH = pathHelpers.join(ROOT_PATH, './src/');
 
-const ENTRY_FILENAME = 'index.tsx';
+const ENTRY_FILENAME = 'index.ts';
 const OUTPUT_FILENAME = 'index.js';
 
 const RESOLVED_EXTENSIONS = [
