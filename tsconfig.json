@@ -6,8 +6,7 @@
         "noImplicitReturns": true,
         "sourceMap": true,
         "outDir": "./target/",
-        "rootDir": "./src/",
-        "plugins": [{ "name": "tslint-language-service" }]
+        "rootDir": "./src/"
     },
     "files": ["./src/index.ts"]
 }
