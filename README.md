@@ -4,5 +4,6 @@
 
 ```
 yarn
-npm run start
+npm run compile:watch
+npm run start:server
 ```
