@@ -1,8 +1,4 @@
 {
-    "editor.rulers": [
-        100 // Enforced by Prettier
-    ],
-
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
