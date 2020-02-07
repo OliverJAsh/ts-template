@@ -9,11 +9,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "source-map-support": "^0.5.12",
-    "tslint": "^5.18.0",
+    "prettier": "^1.19.1",
+    "source-map-support": "^0.5.16",
+    "tslint": "^6.0.0",
     "tslint-language-service": "^0.9.9",
     "tslint-no-unused": "^0.2.0-alpha.1",
-    "typescript": "^3.5.2"
+    "typescript": "^3.7.5"
   }
 }
