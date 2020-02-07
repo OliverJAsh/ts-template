@@ -8,11 +8,10 @@
   },
   "version": "0.0.0",
   "scripts": {
-    "lint": "tslint --project ./tsconfig.json",
     "compile": "rm -rf ./target/ && tsc",
     "test": "npm run compile && node --require source-map-support/register ./target/tests.js",
     "format": "prettier --write './**/*.{ts,tsx,js,json,md}' '.prettierrc'",
-    "prepublishOnly": "npm run test && npm run lint && npm run compile"
+    "prepublishOnly": "npm run test && npm run compile"
   },
   "files": [
     "target"
@@ -20,11 +19,8 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^12.0.10",
-    "prettier": "^1.18.2",
-    "source-map-support": "^0.5.12",
-    "tslint": "^5.18.0",
-    "tslint-language-service": "^0.9.9",
-    "tslint-no-unused": "^0.2.0-alpha.1",
-    "typescript": "^3.5.2"
+    "prettier": "^1.19.1",
+    "source-map-support": "^0.5.16",
+    "typescript": "^3.7.5"
   }
 }
