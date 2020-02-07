@@ -3,9 +3,6 @@
         100 // Enforced by Prettier
     ],
 
-    // We use the language service plugin for this
-    "tslint.enable": false,
-
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
@@ -30,10 +27,6 @@
     },
     "[markdown]": {
         "editor.formatOnSave": true
-    },
-
-    "files.associations": {
-        "tslint.json": "jsonc"
     },
 
     "typescript.tsdk": "node_modules/typescript/lib"
