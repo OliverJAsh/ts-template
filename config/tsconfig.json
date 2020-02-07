@@ -6,8 +6,7 @@
         "noImplicitReturns": true,
         "sourceMap": true,
         "outDir": "./target/",
-        "rootDir": "./src/",
-        "jsx": "react"
+        "rootDir": "./src/"
     },
     "files": ["./src/webpack.config.ts"]
 }
