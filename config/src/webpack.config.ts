@@ -36,7 +36,10 @@ const config: Configuration = {
     },
     plugins: [
         new CopyWebpackPlugin([
-            { from: pathHelpers.resolve(SRC_PATH, './index.html'), to: 'index.html' },
+            {
+                from: pathHelpers.resolve(SRC_PATH, './index.html'),
+                to: 'index.html',
+            },
         ]),
     ],
 };
