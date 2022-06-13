@@ -6,6 +6,9 @@
         "target": "ES2015",
         "strict": true,
         "noImplicitReturns": true,
+        "noUncheckedIndexedAccess": true,
+        "exactOptionalPropertyTypes": true,
+        "forceConsistentCasingInFileNames": true,
         "sourceMap": true,
         "outDir": "./target/",
         "rootDir": "./src/"
