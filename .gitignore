@@ -1,3 +1,4 @@
-/target/
+/client-target/
+/tsc-target/
 /config/target/
 /node_modules/

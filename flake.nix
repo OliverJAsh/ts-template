@@ -19,6 +19,7 @@
           buildInputs = [
             pkgs.nodejs
             pkgs.yarn
+            pkgs.watchexec
           ];
         };
       });
