@@ -2,7 +2,7 @@
 
 ## Development
 
-```
-yarn
-npm run start
+```console
+$ yarn
+$ yarn run start
 ```
