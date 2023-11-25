@@ -2,9 +2,9 @@
 
 ## Development
 
-```
-yarn
-npm run compile:client -- --watch
-npm run compile:server -- --watch
-npm run start:server
+```console
+$ yarn
+$ yarn run compile:client -- --watch
+$ yarn run compile:server -- --watch
+$ yarn run start:server
 ```
