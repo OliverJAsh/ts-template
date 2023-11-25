@@ -2,8 +2,8 @@
 
 ## Development
 
-```
-yarn
-npm run compile:watch
-npm run start:server
+```console
+$ yarn
+$ yarn run compile:watch
+$ yarn run start:server
 ```
