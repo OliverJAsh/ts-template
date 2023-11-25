@@ -4,5 +4,5 @@
 
 ```console
 $ yarn
-$ yarn run start
+$ yarn run test
 ```
