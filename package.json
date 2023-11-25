@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "compile": "rm -rf ./config/target/ && tsc --project config && rm -rf ./target/ && webpack --config config/target/webpack.config.js",
-    "compile:watch": " npm run compile -- --watch",
+    "compile:watch": " yarn run compile -- --watch",
     "start:server": "http-server -c-1 ./target/",
     "format": "prettier --write './**/*.{ts,tsx,js,json,md}' '.prettierrc'"
   },
@@ -12,15 +12,15 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "@types/webpack": "^5.28.2",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@types/webpack": "^5.28.5",
     "copy-webpack-plugin": "^11.0.0",
     "http-server": "^14.1.1",
-    "prettier": "^3.0.3",
-    "ts-loader": "^9.4.4",
-    "typescript": "^5.2.2",
-    "webpack": "^5.88.2",
+    "prettier": "^3.1.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   }
 }
